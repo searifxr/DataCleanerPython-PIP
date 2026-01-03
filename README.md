@@ -4,9 +4,8 @@ A Python tool that automatically cleans CSV datasets, removes null values, and c
 
 ## Quick Start
 ### Install from Source (For Development)
-
 ```bash
-git clone https://github.com/YOUR_USERNAME/DataCleaner.git
+git clone https://github.com/searifxr/DataCleanerPython-PIP
 cd DataCleaner
 pip install -e .
 datacleaner
