@@ -1,9 +1,9 @@
-# Data Processing & Visualization Tool: CLI-Based Data Cleaning & Exploration Tool for Noisy Real World CSV Data
+# **Data Processing & Visualization Tool: CLI-Based Data Cleaning & Exploration Tool for Noisy Real World CSV Data**
 
-# Real World Problem
+## Real World Problem
 Real world datasets often contain missing values, inconsistent schema, and unstandardized columns, which slows down exploratory data analysis and research workflows.
 
-# Short description
+## Short description
 A Python tool that automatically cleans CSV datasets, removes null values, and creates beautiful visualizations. This project was designed to mirror real-world data preprocessing pipelines used in academic and industry research. 
 
 ## Quick Start
