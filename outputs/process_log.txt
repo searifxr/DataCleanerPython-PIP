@@ -1,0 +1,69 @@
+                                SAMPLE LOG (DELETE LATER)
+
+[INFO] 
+[1] Loading data...
+[SUCCESS] ✔ Loaded: 1000 rows, 12 columns
+[INFO] Original Data Columns:
+[INFO] freelancer_ID, name, gender, age, country, language, primary_skill, years_of_experience, hourly_rate (USD), rating, is_active, client_satisfaction
+[INFO] First 10 rows of data:
+[INFO] 
+  freelancer_ID             name  gender   age        country    language           primary_skill  years_of_experience hourly_rate (USD)  rating is_active client_satisfaction
+0      FL250001  Ms. Nicole Kidd       f  52.0          Italy     Italian  Blockchain Development                 11.0               100     NaN         0                 NaN
+1      FL250002   Vanessa Garcia  FEMALE  52.0      Australia     English             Mobile Apps                 34.0           USD 100     3.3         1                 84%
+2      FL250003      Juan Nelson    male  53.0        Germany      German          Graphic Design                 31.0                50     0.0         N                 71%
+3      FL250004   Amanda Spencer       F  38.0      Australia     English         Web Development                  4.0               $40     1.5         N                 90%
+4      FL250005  Lynn Curtis DDS  female  53.0        Germany      German         Web Development                 27.0                30     4.8         0                 83%
+5      FL250006     Lisa Johnson  female  59.0    Netherlands       Dutch                      AI                 14.0               $30     2.4     False                 NaN
+6      FL250007       Eric Myers       m  52.0      Indonesia  Indonesian           Data Analysis                 10.0            USD 75     3.1         0                 94%
+7      FL250008     Ricky Graham    male  43.0          Italy     Italian  Blockchain Development                 14.0            USD 40     4.6     False                 94%
+8      FL250009      Sean Martin    male  26.0  United States     English  Blockchain Development                  4.0               NaN     4.0      True                 76%
+9      FL250010    Matthew Lloyd    MALE  52.0         Turkey     Turkish                      AI                 22.0               $50     NaN         1                 NaN
+[INFO] 
+[2] Checking null values...
+[INFO] Total null values: 541
+[INFO] [3] cleaning null values...
+[INFO] Rows before cleaning: 1000
+[INFO] Rows after cleaning: 553
+[INFO] Rows removed: 447
+[INFO] [4] Cleaning columns
+[INFO] Cleaned column: 'freelancer_ID' -> 'freelancer_id'
+[INFO] Cleaned column: 'primary_skill' -> 'primary_skill'
+[INFO] Cleaned column: 'years_of_experience' -> 'years_of_experience'
+[INFO] Cleaned column: 'hourly_rate (USD)' -> 'hourly_rate_usd_'
+[INFO] Cleaned column: 'is_active' -> 'is_active'
+[INFO] Cleaned column: 'client_satisfaction' -> 'client_satisfaction'
+[SUCCESS] Column names cleaned
+[INFO] Saving to: outputs/Data/global_freelancers_raw_cleaned.csv
+[SUCCESS] Saved to: outputs/Data/global_freelancers_raw_cleaned.csv
+[SUCCESS]  PROCESSING COMPLETE!
+[INFO] [5] Creating visualizations...
+[INFO] Creating histogram for age...
+[SUCCESS] ✓ Saved histogram_age.png
+[INFO] Creating histogram for years_of_experience...
+[SUCCESS] ✓ Saved histogram_years_of_experience.png
+[INFO] Creating histogram for rating...
+[SUCCESS] ✓ Saved histogram_rating.png
+[INFO] Creating scatter plot...
+[SUCCESS] ✓ Saved scatter plot
+[INFO] Creating bar chart for freelancer_id...
+[SUCCESS] ✓ Saved bar_freelancer_id.png
+[INFO] Creating bar chart for name...
+[SUCCESS] ✓ Saved bar_name.png
+[INFO] Creating bar chart for gender...
+[SUCCESS] ✓ Saved bar_gender.png
+[INFO] Creating bar chart for country...
+[SUCCESS] ✓ Saved bar_country.png
+[INFO] Creating bar chart for language...
+[SUCCESS] ✓ Saved bar_language.png
+[INFO] Creating bar chart for primary_skill...
+[SUCCESS] ✓ Saved bar_primary_skill.png
+[INFO] Creating bar chart for hourly_rate_usd_...
+[SUCCESS] ✓ Saved bar_hourly_rate_usd_.png
+[INFO] Creating bar chart for is_active...
+[SUCCESS] ✓ Saved bar_is_active.png
+[INFO] Creating bar chart for client_satisfaction...
+[SUCCESS] ✓ Saved bar_client_satisfaction.png
+[SUCCESS] Visualizations created!
+[SUCCESS] 
+Thanks for using Data Processing Script!
+[SUCCESS] Saved cleaned file: outputs/Data/global_freelancers_raw_cleaned.csv at Sun Jan  4 00:12:31 2026
